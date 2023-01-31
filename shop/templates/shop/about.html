@@ -1,0 +1,77 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} About Us{% endblock %}
+{% block body %}
+
+
+<section>
+  {% load static %}
+  <div>
+    <img src="/media/shop/images/about_hero.jpg" alt="hero" style="width:100%;">
+  </div>
+</section>
+
+<section style="display:flex;">
+  <picture class="pic1"> <source media="(min-width: 575px)"  srcset="https://www.zong.com.pk/assets/images/about/cmcc_bg.jpg"> <img class="card-img top_left_round"
+                             src="https://www.zong.com.pk/assets/images/about/cmcc_bg_sm.jpg" alt="China mobile communications"> </picture>
+
+  <picture class="pic2"> <source media="(min-width: 575px)" srcset="https://www.zong.com.pk/assets/images/about/cmp_bg.jpg"> <img class="card-img top_left_round"
+                                          src="https://www.zong.com.pk/assets/images/about/cmp_bg_sm.jpg" alt="China mobile pakistan"> </picture>
+</section>
+
+<div style="width:350px; color:white; poistion:relative; top:10;">
+  <h2>CHINA MOBILE COMMUNICATION CORPORTION(CMCC)</h2>
+  <h6>China Mobile is the leading telecommunications services provider in Mainland China</h6>
+  <button style="border-radius: 40%;"> Learn More </button>
+</div>
+
+
+
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h6 class="display-3">My Awesome Cart!</h6>
+      <p>My Awesome Cart Pvt Ltd. is an Indian electronic commerce company based in Bengaluru, India. Founded by Sachin Bansal and Binny Bansal in 2007, the company initially focused on book sales, before expanding into other product categories such as consumer electronics, fashion, and lifestyle products.
+
+The service competes primarily with Amazon' s Indian subsidiary, and the domestic rival Snapdeal.[5][6] as of March 2017, Flipkart held a 39.5% market share of India's e-commerce industry.[7] Flipkart is significantly dominant in the sale of apparel (a position that was bolstered by its acquisitions of Myntra and Jabong.com), and was described as being "neck and neck" with Amazon in the sale of electronics and mobile phones.[8] Flipkart also owns PhonePe, a mobile payments service based on the Unified Payments Interface (UPI).
+
+In August 2018, U.S.-based retail chain Walmart acquired a 77% controlling stake in Flipkart for US$16 billion, valuing it at $22 billion.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-md-4">
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+
+
+
+
+
+{% endblock %}
